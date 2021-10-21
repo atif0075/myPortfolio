@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" id="html" class="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="style.css">
+    <title>M Atif</title>
+</head>
+
+<body class=" bg-gray-50 dark:bg-gray-700 dark:text-gray-50">
+    <header class="fixed z-30 flex items-center justify-between w-full h10 bg-gray-50 dark:bg-gray-700">
+        <div class="w-3/12 text-2xl font-bold text-center ">
+            Atif</div>
+        <div class="flex justify-center w-1/3 ">
+            <span class="cursor-pointer lg:hidden" id="burger">
+                <img class="w-10 dark:inv"
+                    src="https://img.icons8.com/ios-filled/50/000000/menu-squared-2.png" /></span>
+        </div>
+        <nav id="nav"
+            class="absolute left-0 flex-col hidden w-full duration-500 ease-in-out rounded-lg shadow-lg lg:static lg:w-full lg:flex-row lg:flex lg:justify-around h-52 lg:h90 lg:shadow-none lg:bg-transparent bottom-full anima bg-gray-50 dark:bg-gray-700 lg:dark:bg-transparent">
+            <div
+                class="flex flex-col items-center justify-around w-full font-semibold text-gray-700 dark:text-gray-50 lg:w-3/6 lg:flex-row">
+                <a class="py-3 lg:py-0" href="#work"><a href="#work">Work</a></a>
+                <a class="py-3 lg:py-0" href="#resume"><a href="#resume">Resume</a></a>
+                <a class="py-3 lg:py-0" href="#contact"><a href="#contact">Contact</a></a>
+            </div>
+            <div class="flex items-center justify-center w-full lg:w-32 lg:justify-around">
+                <span class="cursor-pointer "><img class="py-3 dark:inv w-7 lg:py-0"
+                        src="https://img.icons8.com/ios-filled/50/000000/github.png" /></span>
+                <span class="cursor-pointer "><img class="py-3 ml-4 dark:inv w-7 lg:py-0"
+                        src="https://img.icons8.com/ios-glyphs/50/000000/linkedin.png" /></span>
+                <span id="darkMode" class="px-1 py-1 ml-4 bg-gray-200 rounded-full cursor-pointer lg:py-1 lg:px-1"
+                    href="#">
+                    <span id="moon" class="f">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20"
+                            fill="rgba(64, 64, 64)">
+                            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+                        </svg>
+                    </span>
+                    <span id="bulb" class="hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20"
+                            fill="rgba(64, 64, 64)">
+                            <path
+                                d="M11 3a1 1 0 10-2 0v1a1 1 0 102 0V3zM15.657 5.757a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414l.707-.707zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zM5.05 6.464A1 1 0 106.464 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zM5 10a1 1 0 01-1 1H3a1 1 0 110-2h1a1 1 0 011 1zM8 16v-1h4v1a2 2 0 11-4 0zM12 14c.015-.34.208-.646.477-.859a4 4 0 10-4.954 0c.27.213.462.519.476.859h4.002z" />
+                        </svg>
+                    </span>
+                </span>
+            </div>
+        </nav>
+    </header>
+    <main class="w-full h-auto pt-24 sm:pt-0 lg:h90 sm:flex justify-between items-center md:pt-10">
+        <div class="flex items-center justify-center w-full h-2/4">
+            <div>
+                <img class="rounded-lg w-60 lg:w-96 white-shadow" src="./pic.jpg" alt="">
+            </div>
+        </div>
+        <div class="pt-4 leading-7 text-center h-2/4 md:text-left flex flex-col justify-center items-center md:items-start md:justify-start ">
+            <div class="w-full p-2 text-2xl font-bold lg:text-4xl text-warm-gray">Hi I am Atif and I am <br>
+                <span class="inline-block mt-1 bg-gray-900 text-gray-50 dark:bg-gray-200 dark:text-gray-700">
+                    Junior Web Developer
+                </span>
+            </div>
+            <div class="w-full leading-6 text-justify p-7 sm:p-2 lg:p-2 lg:w-5/6 md:leading-10">
+                based in Faisalabad, Pakistan.I build responsive websites with HTML, CSS, JavaScript, SASS and
+                TAILWINDCSS.
+            </div>
+            <div class="flex items-center w-full h-auto lg:w-auto justify-evenly md:justify-start md:p-3">
+                <button
+                    class="px-4 py-2 font-semibold bg-gray-900 border-2 border-gray-900 rounded-md cursor-pointer text-gray-50 dark:border-gray-200 dark:text-gray-700 dark:bg-gray-200">
+                    <a href="#contact">Contact me</a>
+                </button>
+                <button
+                    class="px-4 py-2 font-semibold text-gray-900 duration-500 ease-out bg-transparent border border-gray-900 rounded-md cursor-pointer hover:bg-gray-900 dark:hover:bg-gray-200 dark:hover:text-gray-700 hover:text-gray-50 md:ml-7 dark:border-gray-200 dark:text-gray-200">
+                    <a href="#work">Check my work</a>
+                </button>
+            </div>
+        </div>
+    </main>
+    <section class="mt-8 lg:mt-0" id="work">
+        <div class="flex flex-col items-center justify-center w-full mt-12 text-center">
+            <h1 id="work" class="text-3xl font-bold lg:text-5xl">Work</h1>
+            <p class="w-11/12 lg:w-3/6 sm:p-4">Here is my recent work, I have done some projects like webpages and
+                landing pages</p>
+        </div>
+        <section class="text-gray-600">
+            <div class="flex flex-col w-full py-12 mx-auto lg:px-16 px-3  md:flex-row">
+                <div class="flex content-start w-full mt-auto mb-auto lg:w-1/2">
+                    <div class="w-full px-4 mb-6 text-left sm:p-4">
+                        <h1 class="mb-2 text-3xl font-bold text-gray-900 dark:text-gray-200">Xono-Landing Page</h1>
+                        <div class="flex flex-wrap my-3">
+                            <p
+                                class="p-1 mt-3 text-xs text-gray-500 bg-gray-200  dark:bg-gray-400 dark:text-gray-200 sm:mt-0">
+                                &nbsp; Web Design &nbsp;</p>
+                            <p
+                                class="p-1 mt-3 ml-3 text-xs text-gray-500 bg-gray-200  dark:bg-gray-400 dark:text-gray-200 sm:mt-0">
+                                &nbsp; Landing Page
+                                &nbsp;</p>
+                            <p
+                                class="p-1 mt-3 ml-3 text-xs text-gray-500 bg-gray-200  dark:bg-gray-400 dark:text-gray-200 sm:mt-0">
+                                &nbsp; Web Development
+                                &nbsp;</p>
+                        </div>
+                        <div class="my-3 leading-9 text-justify lg:w-96 dark:text-gray-200">
+                            This is a homepage, design and build for a company Xono. I designed
+                            the page first then built a responsive web page using Html, Css, JavaScript and Tailwindcss
+                        </div>
+                        <button
+                            class="inline-flex items-center px-4 py-2 font-bold text-gray-700 duration-700 border-2 border-gray-700 rounded-md dark:bg-gray-100 hover:bg-gray-900 dark:hover:bg-gray-100 dark:hover:text-gray-700 button hover:text-gray-100">
+                            <span> <a target="_" href="https:www.xono.netlify.app">Go Live</a> </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-full p-3 mt-6 overflow-hidden rounded-lg shadow-lg lg:w-1/2 sm:w-full sm:mt-0 md:p-0">
+                    <img class="object-cover object-center w-full h-full" src="./Frame 1.png" alt="stats">
+                </div>
+            </div>
+        </section>
+        <section class="text-gray-600">
+            <div class="flex flex-col-reverse w-full py-12 mx-auto px-3 lg:px-16 md:flex-row">
+                <div class="w-full p-3 mt-6 overflow-hidden rounded-lg shadow-lg lg:w-1/2 sm:w-full sm:mt-0 md:p-0">
+                    <img class="object-cover object-center w-full h-full" src="./Frame 2.png" alt="stats">
+                </div>
+                <div class="flex content-start w-full mt-auto mb-auto lg:w-1/2 md:pl-7">
+                    <div class="w-full px-4 mb-6 text-left sm:p-4">
+                        <h1 class="mb-2 text-3xl font-bold text-gray-900 dark:text-gray-200">Acme-Software Dev Web page
+                        </h1>
+                        <div class="flex flex-wrap my-3">
+                            <p
+                                class="p-1 mt-3 text-xs text-gray-500 bg-gray-200  dark:bg-gray-400 dark:text-gray-200 sm:mt-0">
+                                &nbsp; Web Design &nbsp;</p>
+                            <p
+                                class="p-1 mt-3 ml-3 text-xs text-gray-500 bg-gray-200  dark:bg-gray-400 dark:text-gray-200 sm:mt-0">
+                                &nbsp; Web Page
+                                &nbsp;</p>
+                            <p
+                                class="p-1 mt-3 ml-3 text-xs text-gray-500 bg-gray-200  dark:bg-gray-400 dark:text-gray-200 sm:mt-0">
+                                &nbsp; Web Development
+                                &nbsp;</p>
+                            <p
+                                class="p-1 mt-3 ml-3 text-xs text-gray-500 bg-gray-200  dark:bg-gray-400 dark:text-gray-200 sm:mt-0">
+                                &nbsp; Figma
+                                &nbsp;</p>
+                        </div>
+                        <div class="my-3 leading-9 text-justify lg:w-96 dark:text-gray-200">
+                            This is a homepage design, build for a Software Dev company Acme. I designed
+                            the page first then built a responsive web page using Html, Css, JavaScript and Tailwindcss
+                        </div>
+                        <button
+                            class="inline-flex items-center px-4 py-2 font-bold text-gray-700 duration-700 border-2 border-gray-700 rounded-md dark:bg-gray-100 hover:bg-gray-900 dark:hover:bg-gray-100 dark:hover:text-gray-700 button hover:text-gray-100">
+                            <span> <a target="_" href="https:www.xono.netlify.app">Go Live</a> </span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </section>
+    <section id=" resume">
+        <div class="flex flex-col items-center justify-center w-full mt-3 text-center">
+            <h1 id="resume" class="text-3xl font-bold lg:text-5xl">Resume</h1>
+            <p class="w-11/12 my-2 lg:w-3/6 sm:p-4">Here is my resume to know more about me
+            </p>
+        </div>
+        <a href="https://ibb.co/CzMZHCS" target="_">
+            <div class="p-4 text-center">
+                <button
+                    class="inline-flex items-center px-4 py-2 font-bold text-gray-700 duration-700 border-2 border-gray-700 rounded-md dark:bg-gray-100 hover:bg-gray-900 dark:hover:bg-gray-100 dark:hover:text-gray-700 button hover:text-gray-100">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 block" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                    </svg>
+                    <span class=" ml-2">View here</span>
+                </button>
+        </a>
+        </div>
+    </section>
+    <section class="relative" id="contact">
+        <div class="container px-5 mx-auto">
+            <div class="flex flex-col w-full mb-12 text-center">
+                <h1 class="text-3xl font-bold lg:text-5xl">Contact Me</h1>
+                <p class="mx-auto text-base leading-relaxed lg:w-2/3 mt-5">I'm available for freelance work.
+                    Drop me a mail if you like a fancy chat <span
+                        class="inline-block border-b-2 border-gray-700 dark:border-gray-200 border-dashed  bottom-2">
+                        <a href="mailto:chatif476@gmail.com">chatif476@gmail.com</a>
+                    </span> </p>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="flex flex-col items-center justify-center w-full mt-3 text-center">
+            <h1 class="text-3xl font-bold lg:text-5xl">Skills</h1>
+            <p class="flex w-11/12 py-4 my-2 justify-evenly lg:w-3/6">
+                <span title="HTML5"><img class="w-7 dark:inv"
+                        src="https://img.icons8.com/ios-glyphs/30/000000/html-5.png" /></span>
+                <span title="CSS3"><img class="w-7 dark:inv"
+                        src="https://img.icons8.com/ios-glyphs/30/000000/css3.png" /></span>
+                <span title="JavaScript"><img class="w-7 dark:inv"
+                        src="https://img.icons8.com/ios-filled/30/000000/javascript-logo.png" /></span>
+                <span title="Sass/Scss"><img class="w-7 dark:inv"
+                        src="https://img.icons8.com/ios-filled/30/000000/sass.png" /></span>
+                <span title="Bootstrap"><img class="w-7 dark:inv"
+                        src="https://img.icons8.com/windows/32/000000/bootstrap.png" /></span>
+                <span title="Database"><img class="w-7 dark:inv"
+                        src="https://img.icons8.com/ios-filled/32/000000/database.png" /></span>
+                <span title="Tailwindcss">
+                    <img class="w-7 dark:inv" src="./tailwindcss-svgrepo-com.svg" alt="">
+                </span>
+
+            </p>
+            <p class="flex w-11/12 my-2 justify-evenly lg:w-1/6">
+                <span title="Adobe XD"><img class="w-8 border-2 border-gray-300 dark:inv"
+                        src="https://img.icons8.com/ios-filled/50/000000/adobe-xd.png" /></span>
+                <span title="Adobe Illustrator"><img class="w-8 border-2 border-gray-300 dark:inv"
+                        src="https://img.icons8.com/ios-filled/50/000000/adobe-illustrator.png" /></span>
+                <span title="Figma"><img class="w-8 border-2 border-gray-300 dark:inv"
+                        src="https://img.icons8.com/ios-filled/50/000000/figma.png" /></span>
+
+            </p>
+        </div>
+    </section>
+</body>
+<script src="app.js"></script>
+
+</html>
